@@ -1,4 +1,4 @@
-FROM rust:bullseye
+FROM rust:trixie
 
 ENV INSIDE_DOCKER_CONTAINER=1 \
     DEBIAN_FRONTEND=noninteractive \
